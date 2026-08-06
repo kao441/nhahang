@@ -90,7 +90,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     categoryId: 'cat-1',
     categoryName: 'Món Chính Luxury',
     images: [
-      'https://www.chilipeppermadness.com/wp-content/uploads/2022/02/Cajun-Shrimp-SQ.jpg',
+      'https://www.chilipeppermadness.com/wp-content/uploads/2024/09/Cajun-Shrimp-Recipe1.jpg',
       'https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&q=80&w=800'
     ],
     rating: 4.8,
