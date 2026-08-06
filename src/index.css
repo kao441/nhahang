@@ -1,12 +1,57 @@
 @import "tailwindcss";
 
+@theme {
+  --color-wine-50: #fdf2f4;
+  --color-wine-100: #fbe5e9;
+  --color-wine-200: #f7ced6;
+  --color-wine-300: #f1a7b6;
+  --color-wine-400: #e5748c;
+  --color-wine-500: #d44766;
+  --color-wine-600: #be2d4f;
+  --color-wine-700: #a0203f;
+  --color-wine-800: #851e37;
+  --color-wine-900: #581122;
+  --color-wine-950: #3a0814;
+
+  --color-dark-900: #0a0a0a;
+  --color-dark-800: #121212;
+  --color-dark-700: #1a1a1a;
+  --color-dark-600: #262626;
+}
+
 @layer base {
   :root {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    /* Đỏ rượu vang đậm */
+    --primary: 345 60% 25%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Tông đen & xám đen */
+    --background: 0 0% 4%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
+
+    --secondary: 345 40% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 345 50% 20%;
+    --accent-foreground: 0 0% 98%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 345 60% 35%;
   }
-  
-  h1, h2, h3, .font-serif {
-    font-family: 'Playfair Display', Georgia, serif;
+
+  body {
+    background-color: #0a0a0a;
+    color: #f5f5f5;
   }
 }
 
@@ -31,8 +76,15 @@
 
 /* Fade animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fadeIn {
