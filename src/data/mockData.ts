@@ -474,10 +474,10 @@ export const INITIAL_BLOGS: BlogPost[] = [
     slug: 'trang-mieng-phap-hanh-trinh-tu-choux-den-mousse',
     summary: 'Tìm hiểu lịch sử và sự tỉ mỉ trong từng lớp bánh ngọt nước Pháp.',
     content: 'Bánh ngọt Pháp luôn có sức hút khó cưỡng nhờ kỹ thuật làm bánh cầu kỳ và hương vị béo ngậy thanh lịch. Từ những chiếc Mousse chanh dây chua dịu đến Creme Brulee giòn tan...',
-    coverImage: 'https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&q=80&w=800',
+    coverImage: '/banh-phap.jpg',
     author: {
       name: 'Chef Jean Pierre',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
+      avatar: '/banhphat.png',
       role: 'Pastry Chef'
     },
     category: 'Tráng Miệng',
