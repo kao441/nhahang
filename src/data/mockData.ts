@@ -90,7 +90,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     categoryId: 'cat-1',
     categoryName: 'Món Chính Luxury',
     images: [
-      'https://images.unsplash.com/photo-1559742811-8228636d253b?auto=format&fit=crop&q=80&w=800',
+      'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
       'https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&q=80&w=800'
     ],
     rating: 4.8,
