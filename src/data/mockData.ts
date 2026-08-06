@@ -407,109 +407,107 @@ export const INITIAL_BLOGS: BlogPost[] = [
     likesCount: 189,
     commentsCount: 9,
     isFeatured: false
-  }
-];
-export const INITIAL_BLOGS: BlogPost[] = [
-  Dưới đây là 5 bài viết Blog mới chuẩn cấu trúc như các bài viết cũ(INITIAL_BLOGS) trong file src / data / mockData.ts.Bạn hãy cuộn xuống mảng export const INITIAL_BLOGS: BlogPost[] = [...] và dán đoạn mã này vào cuối mảng (trước dấu ]):  TypeScript  {
-  id: 'b-5',
+  },
+  {
+    id: 'b-4',
     title: 'Bí Quyết Thưởng Thức Steak Bò Mỹ Chuẩn Vị Fine Dining',
-      slug: 'bi-quyet-thuong-thuc-steak-bo-my',
-        summary: 'Khám phá các cấp độ chín của thịt bò và cách chọn loại sốt kết hợp hoàn hảo.',
-          content: 'Để thưởng thức trọn vẹn một phần Steak ngon, độ chín (doneness) đóng vai trò quyết định. Medium Rare thường là mức chín lý tưởng nhất giúp giữ lại độ mọng nước tự nhiên và vị ngọt đậm đà của từng thớ thịt bò nhập khẩu...',
-            coverImage: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
-              author: {
-    name: 'Chef Alain Nguyen',
+    slug: 'bi-quyet-thuong-thuc-steak-bo-my',
+    summary: 'Khám phá các cấp độ chín của thịt bò và cách chọn loại sốt kết hợp hoàn hảo.',
+    content: 'Để thưởng thức trọn vẹn một phần Steak ngon, độ chín (doneness) đóng vai trò quyết định. Medium Rare thường là mức chín lý tưởng nhất giúp giữ lại độ mọng nước tự nhiên và vị ngọt đậm đà của từng thớ thịt bò nhập khẩu...',
+    coverImage: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
+    author: {
+      name: 'Chef Alain Nguyen',
       avatar: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&q=80&w=200',
-        role: 'Head Chef'
-  },
-  category: 'Góc Ẩm Thực',
+      role: 'Head Chef'
+    },
+    category: 'Góc Ẩm Thực',
     tags: ['Steak', 'Bò Mỹ', 'Fine Dining'],
-      publishedAt: '2026-06-15',
-        readTime: '5 phút',
-          likesCount: 184,
-            commentsCount: 12,
-              isFeatured: true
-},
-{
-  id: 'b-6',
+    publishedAt: '2026-06-15',
+    readTime: '5 phút',
+    likesCount: 184,
+    commentsCount: 12,
+    isFeatured: true
+  },
+  {
+    id: 'b-5',
     title: 'Hành Trình Khám Phá Hương Vị Hải Sản Địa Trung Hải',
-      slug: 'hanh-trinh-kham-pha-hai-san-dia-trung-hai',
-        summary: 'Sự kết hợp giữa hải sản tươi sống, dầu ô liu nguyên chất và thảo mộc đặc trưng.',
-          content: 'Ẩm thực Địa Trung Hải nổi tiếng thế giới nhờ sự thanh mát, tốt cho sức khỏe và giữ trọn vị tươi nguyên của nguyên liệu. Các món ăn từ tôm, mực, cá biển được chế biến tối giản nhưng đầy tinh tế...',
-            coverImage: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&q=80&w=800',
-              author: {
-    name: 'Sophia Laurent',
+    slug: 'hanh-trinh-kham-pha-hai-san-dia-trung-hai',
+    summary: 'Sự kết hợp giữa hải sản tươi sống, dầu ô liu nguyên chất và thảo mộc đặc trưng.',
+    content: 'Ẩm thực Địa Trung Hải nổi tiếng thế giới nhờ sự thanh mát, tốt cho sức khỏe và giữ trọn vị tươi nguyên của nguyên liệu. Các món ăn từ tôm, mực, cá biển được chế biến tối giản nhưng đầy tinh tế...',
+    coverImage: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&q=80&w=800',
+    author: {
+      name: 'Sophia Laurent',
       avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200',
-        role: 'Food Reviewer'
-  },
-  category: 'Văn Hóa Ẩm Thực',
+      role: 'Food Reviewer'
+    },
+    category: 'Văn Hóa Ẩm Thực',
     tags: ['Hải Sản', 'Địa Trung Hải', 'Healthy'],
-      publishedAt: '2026-06-28',
-        readTime: '6 phút',
-          likesCount: 142,
-            commentsCount: 9,
-              isFeatured: false
-},
-{
-  id: 'b-7',
+    publishedAt: '2026-06-28',
+    readTime: '6 phút',
+    likesCount: 142,
+    commentsCount: 9,
+    isFeatured: false
+  },
+  {
+    id: 'b-6',
     title: 'Nghệ Thuật Pha Chế Mocktail Giải Nhiệt Mùa Hè',
-      slug: 'nghe-thuat-pha-che-mocktail-giai-nhiet',
-        summary: 'Sự hòa quyện giữa trái cây tươi, thảo mộc và nước ép tự nhiên không cồn.',
-          content: 'Mocktail không chỉ đơn thuần là nước giải khát mà còn là tác phẩm nghệ thuật cân bằng giữa vị chua, ngọt và hương thơm thanh mát từ hoa quả nhiệt đới...',
-            coverImage: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800',
-              author: {
-    name: 'David Tran',
+    slug: 'nghe-thuat-pha-che-mocktail-giai-nhiet',
+    summary: 'Sự hòa quyện giữa trái cây tươi, thảo mộc và nước ép tự nhiên không cồn.',
+    content: 'Mocktail không chỉ đơn thuần là nước giải khát mà còn là tác phẩm nghệ thuật cân bằng giữa vị chua, ngọt và hương thơm thanh mát từ hoa quả nhiệt đới...',
+    coverImage: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800',
+    author: {
+      name: 'David Tran',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
-        role: 'Mixologist'
-  },
-  category: 'Đồ Uống & Pha Chế',
+      role: 'Mixologist'
+    },
+    category: 'Đồ Uống & Pha Chế',
     tags: ['Mocktail', 'Đồ Uống', 'Mùa Hè'],
-      publishedAt: '2026-07-04',
-        readTime: '4 phút',
-          likesCount: 96,
-            commentsCount: 5,
-              isFeatured: false
-},
-{
-  id: 'b-8',
+    publishedAt: '2026-07-04',
+    readTime: '4 phút',
+    likesCount: 96,
+    commentsCount: 5,
+    isFeatured: false
+  },
+  {
+    id: 'b-7',
     title: 'Tráng Miệng Pháp: Hành Trình Từ Bánh Choux Đến Mousse',
-      slug: 'trang-mieng-phap-hanh-trinh-tu-choux-den-mousse',
-        summary: 'Tìm hiểu lịch sử và sự tỉ mỉ trong từng lớp bánh ngọt nước Pháp.',
-          content: 'Bánh ngọt Pháp luôn có sức hút khó cưỡng nhờ kỹ thuật làm bánh cầu kỳ và hương vị béo ngậy thanh lịch. Từ những chiếc Mousse chanh dây chua dịu đến Creme Brulee giòn tan...',
-            coverImage: 'https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&q=80&w=800',
-              author: {
-    name: 'Chef Jean Pierre',
+    slug: 'trang-mieng-phap-hanh-trinh-tu-choux-den-mousse',
+    summary: 'Tìm hiểu lịch sử và sự tỉ mỉ trong từng lớp bánh ngọt nước Pháp.',
+    content: 'Bánh ngọt Pháp luôn có sức hút khó cưỡng nhờ kỹ thuật làm bánh cầu kỳ và hương vị béo ngậy thanh lịch. Từ những chiếc Mousse chanh dây chua dịu đến Creme Brulee giòn tan...',
+    coverImage: 'https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&q=80&w=800',
+    author: {
+      name: 'Chef Jean Pierre',
       avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
-        role: 'Pastry Chef'
-  },
-  category: 'Tráng Miệng',
+      role: 'Pastry Chef'
+    },
+    category: 'Tráng Miệng',
     tags: ['Bánh Ngọt', 'Ẩm Thực Pháp', 'Dessert'],
-      publishedAt: '2026-07-20',
-        readTime: '7 phút',
-          likesCount: 210,
-            commentsCount: 16,
-              isFeatured: true
-},
-{
-  id: 'b-9',
-    title: 'Xu Hướng Ẩm Thực Xanh Bền Vững Trong Nhà Hàng Hiện Đại',
-      slug: 'xu-huong-am-thuc-xanh-ben-vung',
-        summary: 'Sử dụng nguyên liệu hữu cơ địa phương và giảm thiểu rác thải thực phẩm.',
-          content: 'Xu hướng "Farm to Table" (Từ trang trại đến bàn ăn) đang trở thành chuẩn mực mới cho các nhà hàng cao cấp, mang lại món ăn tươi ngon và thân thiện với môi trường...',
-            coverImage: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=800',
-              author: {
-    name: 'Elena Rostova',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
-        role: 'Sustainability Specialist'
+    publishedAt: '2026-07-20',
+    readTime: '7 phút',
+    likesCount: 210,
+    commentsCount: 16,
+    isFeatured: true
   },
-  category: 'Xu Hướng',
+  {
+    id: 'b-8',
+    title: 'Xu Hướng Ẩm Thực Xanh Bền Vững Trong Nhà Hàng Hiện Đại',
+    slug: 'xu-huong-am-thuc-xanh-ben-vung',
+    summary: 'Sử dụng nguyên liệu hữu cơ địa phương và giảm thiểu rác thải thực phẩm.',
+    content: 'Xu hướng "Farm to Table" (Từ trang trại đến bàn ăn) đang trở thành chuẩn mực mới cho các nhà hàng cao cấp, mang lại món ăn tươi ngon và thân thiện với môi trường...',
+    coverImage: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=800',
+    author: {
+      name: 'Elena Rostova',
+      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
+      role: 'Sustainability Specialist'
+    },
+    category: 'Xu Hướng',
     tags: ['Organic', 'Farm To Table', 'Eco Friendly'],
-      publishedAt: '2026-08-01',
-        readTime: '5 phút',
-          likesCount: 165,
-            commentsCount: 11,
-              isFeatured: false
-}
+    publishedAt: '2026-08-01',
+    readTime: '5 phút',
+    likesCount: 165,
+    commentsCount: 11,
+    isFeatured: false
+  }
 ];
 export const INITIAL_ANALYTICS: AnalyticsSummary = {
   totalRevenue: 285400000,
