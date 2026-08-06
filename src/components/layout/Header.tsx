@@ -127,9 +127,11 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onNavigate, onOpenSe
             onClick={() => onNavigate('home')}
             className="flex items-center space-x-2.5 text-left group"
           >
-            <div className="w-10 h-10 bg-[#e11d48] rounded-lg flex items-center justify-center text-white font-serif font-black text-xl shadow-lg shadow-rose-950/50 group-hover:scale-105 transition-transform">
-              BK
-            </div>
+            <img
+              src="/logo.png"
+              alt="LuxeBistro Logo"
+              className="w-10 h-10 object-contain rounded-lg"
+            />
             <div>
               <span className="font-serif text-2xl font-bold tracking-tight text-zinc-100 block leading-none">
                 LUXE<span className="text-[#e11d48]">BISTRO</span>
@@ -152,8 +154,8 @@ export const Header: React.FC<HeaderProps> = ({ currentTab, onNavigate, onOpenSe
                 <button
                   onClick={() => onNavigate(item.id)}
                   className={`font-medium text-sm tracking-wide transition-colors flex items-center space-x-1 ${currentTab === item.id
-                      ? 'text-[#e11d48] font-semibold'
-                      : 'text-zinc-300 hover:text-[#e11d48]'
+                    ? 'text-[#e11d48] font-semibold'
+                    : 'text-zinc-300 hover:text-[#e11d48]'
                     }`}
                 >
                   <span>{item.label}</span>
