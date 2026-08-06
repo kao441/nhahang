@@ -13,16 +13,18 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer className="bg-[#121212] text-zinc-300 font-sans border-t-4 border-[#e11d48] pt-14 pb-8">
       <div className="max-w-7xl mx-auto px-4">
-        
+
         {/* Main Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-12 border-b border-zinc-800">
-          
+
           {/* Column 1: Brand & Contact Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2.5">
-              <div className="w-9 h-9 bg-[#e11d48] rounded-md flex items-center justify-center text-white font-serif font-black text-lg shadow-md shadow-rose-950/50">
-                LB
-              </div>
+              <img
+                src="/logo.png"
+                alt="LuxeBistro Logo"
+                className="w-10 h-10 object-contain rounded-lg"
+              />
               <span className="font-serif text-2xl font-bold tracking-tight text-white">
                 LUXE<span className="text-[#e11d48]">BISTRO</span>
               </span>
@@ -137,18 +139,20 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             {/* Mock Social Fanpage Box */}
             <div className="bg-zinc-900/90 rounded-lg p-4 border border-zinc-800 space-y-3">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 bg-[#e11d48] rounded text-white flex items-center justify-center font-bold text-sm shadow">
-                  LOGO
-                </div>
+                <img
+                  src="/logo.png"
+                  alt="LuxeBistro Logo"
+                  className="w-10 h-10 object-contain rounded-lg"
+                />
                 <div>
                   <p className="text-sm font-bold text-white">LuxeBistro Restaurant</p>
                   <p className="text-[11px] text-zinc-400">20,000 người theo dõi</p>
                 </div>
               </div>
 
-              <a 
-                href="https://facebook.com" 
-                target="_blank" 
+              <a
+                href="https://facebook.com"
+                target="_blank"
                 rel="noreferrer"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold py-1.5 px-3 rounded flex items-center justify-center space-x-1.5 transition-colors"
               >
@@ -175,13 +179,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-zinc-500 gap-4">
           <p>© 2026 LuxeBistro Restaurant. All Rights Reserved. Designed for Enterprise Experience.</p>
-          
+
           <div className="flex items-center space-x-4">
             <span className="text-zinc-500">Thanh toán an toàn:</span>
             <span className="bg-zinc-800/80 px-2 py-1 rounded text-[10px] text-zinc-300 font-bold border border-zinc-700/50">VNPay</span>
             <span className="bg-zinc-800/80 px-2 py-1 rounded text-[10px] text-zinc-300 font-bold border border-zinc-700/50">MoMo</span>
             <span className="bg-zinc-800/80 px-2 py-1 rounded text-[10px] text-zinc-300 font-bold border border-zinc-700/50">COD</span>
-            <button 
+            <button
               onClick={scrollToTop}
               className="p-2 bg-[#e11d48] text-white rounded hover:bg-rose-700 transition-colors ml-2 shadow-md shadow-rose-950/50"
               title="Về đầu trang"
