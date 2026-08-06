@@ -1,0 +1,6 @@
+{
+  "name": "LuxeBistro Restaurant & E-Commerce Platform",
+  "description": "Enterprise-grade luxury restaurant e-commerce platform with menu, online ordering, reservations, blog, locations, promotions, user accounts, and full administrative CMS dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
