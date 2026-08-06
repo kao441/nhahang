@@ -409,7 +409,70 @@ export const INITIAL_BLOGS: BlogPost[] = [
     isFeatured: false
   }
 ];
-
+export const INITIAL_BLOGS: BlogPost[] = [
+  {
+    id: 'prod-010',
+    name: 'Súp Bào Ngư Sốt Dầu Hào',
+    price: 280000,
+    originalPrice: 320000,
+    rating: 4.9,
+    reviewsCount: 38,
+    category: 'appetizers',
+    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&q=80&w=800',
+    description: 'Bào ngư thượng hạng hầm cùng nấm đông cô và nước sốt dầu hào đậm đà.',
+    isFeatured: true,
+    tags: ['Khai vị', 'Bổ dưỡng']
+  },
+  {
+    id: 'prod-011',
+    name: 'Thịt Cừu Nướng Thảo Mộc',
+    price: 310000,
+    originalPrice: 350000,
+    rating: 4.8,
+    reviewsCount: 24,
+    category: 'main-courses',
+    image: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=800',
+    description: 'Sườn cừu ướp lá hương thảo nướng xém cạnh, ăn kèm sốt rượu vang đỏ.',
+    isFeatured: true,
+    tags: ['Món chính', 'Đặc sản']
+  },
+  {
+    id: 'prod-012',
+    name: 'Cơm Chiên Hải Sản Hoàng Kim',
+    price: 150000,
+    rating: 4.7,
+    reviewsCount: 52,
+    category: 'main-courses',
+    image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=800',
+    description: 'Cơm chiên hạt vàng óng bọc trứng muối, tôm sú, mực và hạt sen thơm bùi.',
+    isFeatured: false,
+    tags: ['Món chính', 'Bán chạy']
+  },
+  {
+    id: 'prod-013',
+    name: 'Cocktail Dâu Tây Bạc Hà',
+    price: 65000,
+    rating: 4.6,
+    reviewsCount: 19,
+    category: 'beverages',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800',
+    description: 'Sự kết hợp giữa dâu tây tươi mọng, lá bạc hà thanh mát và một chút soda sảng khoái.',
+    isFeatured: false,
+    tags: ['Đồ uống']
+  },
+  {
+    id: 'prod-014',
+    name: 'Bánh Creme Brulee Vani',
+    price: 60000,
+    rating: 4.9,
+    reviewsCount: 45,
+    category: 'desserts',
+    image: 'https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&q=80&w=800',
+    description: 'Lớp kem béo mịn bên dưới lớp đường đốt giòn tan thơm mùi vani Pháp.',
+    isFeatured: true,
+    tags: ['Tráng miệng']
+  }
+];
 export const INITIAL_ANALYTICS: AnalyticsSummary = {
   totalRevenue: 285400000,
   totalOrders: 412,
