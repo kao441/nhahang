@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* 1. Sửa lỗi cú pháp: Dùng @theme (không kèm từ "base") */
 @theme {
   --color-wine-50: #fdf2f4;
   --color-wine-100: #fbe5e9;
@@ -17,6 +18,21 @@
   --color-dark-800: #121212;
   --color-dark-700: #1a1a1a;
   --color-dark-600: #262626;
+
+  /* 2. Tích hợp animation trực tiếp vào Tailwind v4 */
+  --animate-fade-in: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 @layer base {
@@ -55,7 +71,7 @@
   }
 }
 
-/* Custom Sophisticated Dark Scrollbar */
+/* Custom Scrollbar tông tối */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -72,21 +88,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #3f3f46;
-}
-
-/* Fade animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
